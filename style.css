@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto Lt";
+    src:
+      url("/Style/Font/Roboto-Medium.ttf") format("TrueType")
+  }
+
+
+
+
+header{
+    background-color: black;
+    color: white;
+    font-family: "Roboto Lt";
+    height: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+li:hover{
+    color: red;
+}
